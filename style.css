@@ -1,0 +1,67 @@
+* {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body.button-page {
+    height: 100vh;
+    text-align: center;
+    background-image: url(https://img.freepik.com/premium-vector/black-yellow-line-striped-caution-tape-blank-warning-background_97458-52.jpg?w=2000);
+    background-size: cover;
+}
+
+.button {
+    top: 35%;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    opacity: 0.9;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 20px;
+    border: solid 4px darkred;
+    border-radius: 160px;
+    color: white;
+    height: 200px;
+    width: 200px;
+    padding: 75px 40px;
+    background-color: crimson;
+}
+.button:hover {
+    background-color: red;
+    border: solid 4px purple;
+    color: black;
+}
+
+.container {
+    margin-top: 50vh;
+}
+
+#navbar {
+    height: 30px;
+    background-color: rgba(0,0,0,0.8);
+    text-align: left;
+}
+
+#navbar ul {
+    margin-left: 10px;
+}
+
+#navbar ul li {
+    background-color: rgba(80,80,80,0.9);
+    padding: 1px 3px;
+    border: solid 1px aliceblue;
+    border-radius: 6px;
+    margin: 0 5px 0 0;
+    font-family: arial;
+    font-size: 20px;
+    color: aliceblue;
+    display: inline-flex;
+    list-style: none;
+}
+
+#navbar ul li:hover {
+    opacity: 0.5;
+}
