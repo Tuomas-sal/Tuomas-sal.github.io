@@ -12,11 +12,16 @@ body.button-page {
     background-size: cover;
 }
 
-.button {
-    top: 35%;
+.button-container {
     position: relative;
     display: inline-block;
     box-sizing: border-box;
+    top:25vmax;
+}
+
+.button {
+    position: relative;
+    box-shadow: 0px 10px 0px 0px black;
     opacity: 0.9;
     font-weight: bold;
     font-family: Helvetica;
@@ -26,13 +31,18 @@ body.button-page {
     color: white;
     height: 200px;
     width: 200px;
-    padding: 75px 40px;
+    padding: 75px 15px;
     background-color: crimson;
 }
 .button:hover {
-    background-color: red;
     border: solid 4px purple;
     color: black;
+}
+
+.button:active {
+    top: 10px;
+    box-shadow: 0px 0px;
+    background-color: rgb(260, 60, 100);
 }
 
 .container {
@@ -55,9 +65,8 @@ body.button-page {
     border: solid 1px aliceblue;
     border-radius: 6px;
     margin: 0 5px 0 0;
-    font-family: arial;
+    font-family:monospace ;
     font-size: 20px;
-    font-weight: lighter;
     color: aliceblue;
     display: inline-flex;
     list-style: none;
